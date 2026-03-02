@@ -50,13 +50,26 @@ func main() {
 	var a int = 5         // first way
 	var b bool = false    // first way
 	var c float64 = 2.345 // first way
-	variableName := 5     // second way
+	variableName := 5     // second way -> type is  inferred
+	var x, y, z int = 1, 2, 3
+	var t, h = 4, "Hi"
+
+	var (
+		u int
+		v int = 1
+		d     = "Hi"
+	)
+
+	// var 1t = 5 // error Variable name never start with numeric
 
 	fmt.Println(a)            // first way
 	fmt.Println(b)            // first way
 	fmt.Println(c)            // first way
 	fmt.Println(variableName) // second way
-
+	fmt.Println(x, y, z)      // Multiple variable
+	fmt.Println(t, h)
+	fmt.Println(d, u, v)
+	//fmt.Println(k) // error
 }
 
 // func main() {
