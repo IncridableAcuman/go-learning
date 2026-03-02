@@ -99,7 +99,7 @@ func main() {
 // ---------- Basic Types ---------------------------------------
 /*
 1. Boolean bool -> faqat true yoki false qiymat
-2. Sart(String) string -> "" orqali beriladigan qiymatlar
+2. Satr(String) string -> "" orqali beriladigan qiymatlar
 3. Sonli turlar:
 	3.1 Butun sonli turlar -> int,int8,int16,int32,int64
 	3.2 Haqiqiy sonli turlar float,float8,float16,float32,float64
@@ -108,7 +108,26 @@ func main() {
 */
 // First Basix Types for example
 func main() {
-	var isActive bool = true // yokida isActive := true
-	//isActive := false
-	fmt.Println(isActive)
+	// var isActive bool = true // yokida isActive := true
+	// //isActive := false
+	// fmt.Println(isActive)
+
+	// username := "Abdusamad"
+	// fmt.Println(strings.ToUpper(username))
+
+	var a int8 = 127 // -128 <-> 127  | 8bits/1byte
+
+	//var a int8 = 127456 // cannot use 127456 (untyped int constant) as int8 value in variable declaration
+
+	var b int16 = 32767 // -32768 <-> 32767 // 16bits/2byte
+
+	var c int32 = -2147483648 // -2147483648 <-> 2147483647  // 32bits/4bytes
+
+	var d int64 = 9223372036854775807 // -9223372036854775808 <-> 9223372036854775807
+
+	fmt.Println(a)
+	fmt.Println(b)
+
+	fmt.Println(c)
+	fmt.Println(d)
 }
