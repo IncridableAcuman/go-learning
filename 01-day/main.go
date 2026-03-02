@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // Ma'lumotlarni chiqarish
 // func main() {
 // 	var floatValue = 4.5
@@ -115,19 +113,21 @@ func main() {
 	// username := "Abdusamad"
 	// fmt.Println(strings.ToUpper(username))
 
-	var a int8 = 127 // -128 <-> 127  | 8bits/1byte
+	// var a int8 = 127 // -128 <-> 127  | 8bits/1byte
 
-	//var a int8 = 127456 // cannot use 127456 (untyped int constant) as int8 value in variable declaration
+	// //var a int8 = 127456 // cannot use 127456 (untyped int constant) as int8 value in variable declaration
 
-	var b int16 = 32767 // -32768 <-> 32767 // 16bits/2byte
+	// var b int16 = 32767 // -32768 <-> 32767 // 16bits/2byte
 
-	var c int32 = -2147483648 // -2147483648 <-> 2147483647  // 32bits/4bytes
+	// var c int32 = -2147483648 // -2147483648 <-> 2147483647  // 32bits/4bytes
 
-	var d int64 = 9223372036854775807 // -9223372036854775808 <-> 9223372036854775807
+	// var d int64 = 9223372036854775807 // -9223372036854775808 <-> 9223372036854775807
 
-	fmt.Println(a)
-	fmt.Println(b)
+	// fmt.Println(a)
+	// fmt.Println(b)
 
-	fmt.Println(c)
-	fmt.Println(d)
+	// fmt.Println(c)
+	// fmt.Println(d)
+
+	agrigate()
 }
