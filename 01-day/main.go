@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 // Ma'lumotlarni chiqarish
 // func main() {
@@ -46,31 +44,34 @@ func main() {
 
 // Variables
 
-func main() {
-	var a int = 5         // first way
-	var b bool = false    // first way
-	var c float64 = 2.345 // first way
-	variableName := 5     // second way -> type is  inferred
-	var x, y, z int = 1, 2, 3
-	var t, h = 4, "Hi"
+// func main() {
+// 	var a int = 5         // first way
+// 	var b bool = false    // first way
+// 	var c float64 = 2.345 // first way
+// 	variableName := 5     // second way -> type is  inferred
+// 	var x, y, z int = 1, 2, 3
+// 	var t, h = 4, "Hi"
 
-	var (
-		u int
-		v int = 1
-		d     = "Hi"
-	)
+// 	var (
+// 		u int
+// 		v int = 1
+// 		d     = "Hi"
+// 	)
 
-	// var 1t = 5 // error Variable name never start with numeric
+// 	// var 1t = 5 // error Variable name never start with numeric
 
-	fmt.Println(a)            // first way
-	fmt.Println(b)            // first way
-	fmt.Println(c)            // first way
-	fmt.Println(variableName) // second way
-	fmt.Println(x, y, z)      // Multiple variable
-	fmt.Println(t, h)
-	fmt.Println(d, u, v)
-	//fmt.Println(k) // error
-}
+// 	const PI float32 = 3.14
+
+// 	fmt.Println(a)            // first way
+// 	fmt.Println(b)            // first way
+// 	fmt.Println(c)            // first way
+// 	fmt.Println(variableName) // second way
+// 	fmt.Println(x, y, z)      // Multiple variable
+// 	fmt.Println(t, h)
+// 	fmt.Println(d, u, v)
+// 	//fmt.Println(k) // error
+// 	fmt.Println(PI)
+// }
 
 // func main() {
 // 	var letter = "Salom Dunyo"
@@ -88,3 +89,26 @@ func main() {
 
 // 	// fmt.Println(strings.Cut()) //
 // }
+
+// func main() {
+// 	var i, j = "Hello", "World"
+// 	fmt.Print(i, "\n")
+// 	fmt.Print(j, "\n")
+// }
+
+// ---------- Basic Types ---------------------------------------
+/*
+1. Boolean bool -> faqat true yoki false qiymat
+2. Sart(String) string -> "" orqali beriladigan qiymatlar
+3. Sonli turlar:
+	3.1 Butun sonli turlar -> int,int8,int16,int32,int64
+	3.2 Haqiqiy sonli turlar float,float8,float16,float32,float64
+	3,3 Complex sonli turlar conplex64 complex128
+-----------------------------------------------------------------
+*/
+// First Basix Types for example
+func main() {
+	var isActive bool = true // yokida isActive := true
+	//isActive := false
+	fmt.Println(isActive)
+}
