@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"strings"
 )
 
 // Ma'lumotlarni chiqarish
@@ -45,19 +44,34 @@ func main() {
 
 // }
 
+// Variables
+
 func main() {
-	var letter = "Salom Dunyo"
-	var word = "Hello World"
-	var halfLetter = "Salom "
-	var halfWord = "Hello"
+	var a int = 5         // first way
+	var b bool = false    // first way
+	var c float64 = 2.345 // first way
+	variableName := 5     // second way
 
-	fmt.Println(strings.Compare(letter, "Hello World")) // 1 -> false
-	fmt.Println(strings.Compare(word, "Hello World"))   // 0 -> true
+	fmt.Println(a)            // first way
+	fmt.Println(b)            // first way
+	fmt.Println(c)            // first way
+	fmt.Println(variableName) // second way
 
-	fmt.Println(strings.Contains(letter, halfLetter)) // true
-	fmt.Println(strings.Contains(word, halfWord))     // true
-
-	fmt.Println(strings.Count(letter, halfLetter)) // 1 marta
-
-	fmt.Println(strings.Cut()) //
 }
+
+// func main() {
+// 	var letter = "Salom Dunyo"
+// 	var word = "Hello World"
+// 	var halfLetter = "Salom "
+// 	var halfWord = "Hello"
+
+// 	fmt.Println(strings.Compare(letter, "Hello World")) // 1 -> false
+// 	fmt.Println(strings.Compare(word, "Hello World"))   // 0 -> true
+
+// 	fmt.Println(strings.Contains(letter, halfLetter)) // true
+// 	fmt.Println(strings.Contains(word, halfWord))     // true
+
+// 	fmt.Println(strings.Count(letter, halfLetter)) // 1 marta
+
+// 	// fmt.Println(strings.Cut()) //
+// }
