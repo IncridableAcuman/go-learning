@@ -75,4 +75,21 @@ func main() {
 
 	fmt.Printf("Integer type: %T\n", integer)
 	fmt.Printf("String type: %T\n", name)
+
+	// Integer Fomatting Verbs
+
+	number := 22
+
+	fmt.Printf("%b\n", number) //binary
+	fmt.Printf("%d\n", number) // decimal
+
+	// String fomatting
+
+	fmt.Printf("%s\n", name)
+	fmt.Printf("%q\n", name)
+
+	// -------------- < AGGREGATE TYPES > -------------------------------
+	/*
+		Agregat turlarga asosan array va struct kiradi.
+	*/
 }
